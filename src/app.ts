@@ -18,6 +18,9 @@ import appHooks from './app.hooks';
 import channels from './channels';
 // Don't remove this comment. It's needed to format import lines nicely.
 
+const env = require('dotenv').config()
+if (env.error) throw env.error
+
 const app: Application = express(feathers());
 
 // Load app configuration
