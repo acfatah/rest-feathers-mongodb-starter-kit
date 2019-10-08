@@ -1,3 +1,7 @@
 HOST="localhost"
 PORT=3030
 MONGODB_URI=
+
+# Path to Firebase account key
+# Link: https://firebase.google.com/docs/admin/setup#initialize_the_sdk
+GOOGLE_APPLICATION_CREDENTIALS=
